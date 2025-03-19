@@ -2,7 +2,7 @@ import os
 
 os.system("clear || cls ")
 
-login_cadastrado = "Matheus"
+login_cadastrado = "matheus"
 senha_cadastrada = "1234"
 
 
@@ -13,9 +13,9 @@ for i in range(3):
         print("BEM-VINDO")
         break
     else: 
-        print("LOGIN OU SENHA IMCORRETOS")
+        print("LOGIN OU SENHA INCORRETOS: \n")
+
         if i == 2: 
+            
             print("VOCÊ EXCEDEU O NÚMERO DE TENTATIVAS")
             break
-        
-        print("repetindo....")
